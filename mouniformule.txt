@@ -1,0 +1,110 @@
+Input:
+
+Electrolyser Technology-> drop down -(Alkaline,PEM,AEM)
+Electrolyser Capacity-> drop down-(MW,KW) 
+Specific Power Consumption 
+Lower Heating Value of Hydrogen
+Hydrogen Density
+Oxygen Density
+Electrolyser Operating Time
+ 
+
+output:
+
+Hydrogen Production Rate  
+
+Oxygen Production Rate
+
+Water Consumed by Stack  
+
+i want the above three output in Nm3/hr and in  kg/hr  units 
+
+and want for day and hr also  the output looks like below and utilize formule below listed 
+ 
+			Date	21-11-2025	
+			Doc No.		
+			Sheet No		Rev:
+Electrolyser Feed Water Calculations					
+S .No	Description	Symbol	Value 	Units	Remarks
+1	Electrolyser Technology		PEM		
+2	Electrolyser Capacity		2	MW	
+3	Specific Power Consumption 		55	kwh/Kg	
+4	Lower Heating Value of Hydrogen		33.322	kwh/Kg	
+5	Hydrogen Density		0.08988	kg/m3	
+6	1 kg of Hydrogen 		11.126	Nm3/hr	
+7	Oxygen Density		1.429	kg/m3	
+8	Electrolyser Efficiency		0.61	61%	
+9	Hydrogen Production Rate	mH	405	Nm3/hr	
+			36.36	kg/hr	
+10	Oxygen Production Rate	mO	202	Nm3/hr	
+			289.1	kg/hr	
+11	Water Consumed by Stack	m1 	405	kg/hr	
+12	Electrolyser Operating Time	t	10	hr	
+13	Hydrogen Production Rate	mH	4046	Nm3/hr	
+			363.64	kg/day	
+14	Oxygen Production Rate	mO	2023	Nm3/hr	
+			2890.7	kg/day	
+15	Water Consumed by Stack	m1 	4046	kg/day	
+16					
+17					
+18					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------
+
+
+1 kg of Hydrogen = 1/Hydrogen Density
+
+
+Electrolyser Efficiency
+=Lower Heating Value of Hydrogen
+/Specific Power Consumption 
+
+---------------------------------per hour--------------
+Hydrogen Production Rate
+=(Electrolyser Capacity *(if units= "MW",1000,1)*1 kg of Hydrogen ) /Specific Power Consumption = units Nm3/hr
+
+Hydrogen Production Rate*Hydrogen Density = units kg/hr
+ 
+
+Oxygen Production Rate = Hydrogen Production Rate/2 = units Nm3/hr
+
+Oxygen Production Rate*Oxygen Density
+= units kg/hr
+
+Water Consumed by Stack=Hydrogen Production Rate = units kg/hr
+----------------------------------------per day----------
+
+Hydrogen Production Rate(d) = Hydrogen Production Rate*Electrolyser Operating Time 
+
+Hydrogen Production Rate(d)*Hydrogen Density = units kg/day 
+
+Oxygen Production Rate(d) = Oxygen Production Rate*Electrolyser Operating Time = units Nm3/hr
+
+Oxygen Production Rate(d)*Oxygen Density
+= units kg/day
+
+Water Consumed by Stack=Hydrogen Production Rate(d) = units kg/day
+ 
+---------------------------  
+
+for this description i want an effective website dynamic and responsive. colourful. for Nm3/hr and kg/hr result put one toggle button like and and hours result in one card and days result in one card. 
+
+build very proficient website using html,css and javascript.
+
+
+
+
