@@ -31,7 +31,7 @@ body {
     gap: 30px;
 }
 .subhead{
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 .right-panel {
@@ -125,6 +125,7 @@ margin: 10px; }
     }
 
 }
+
 
 
 
