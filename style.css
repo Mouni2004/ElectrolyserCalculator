@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 .subtitle{
-    color:white;
+    color:#050505;
     font-family: 'Poppins', sans-serif;
 
     font-size:20px;
@@ -125,6 +125,7 @@ margin: 10px; }
     }
 
 }
+
 
 
 
