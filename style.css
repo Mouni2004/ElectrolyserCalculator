@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 50px;
     font-family: 'Poppins', sans-serif;
-    background-image: url("https://raw.githubusercontent.com/Mouni2004/ElectrolyserCalculator/main/images.jpeg");
+    background-image: url("images.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -125,5 +125,6 @@ margin: 10px; }
     }
 
 }
+
 
 
