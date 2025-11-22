@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 50px;
     font-family: 'Poppins', sans-serif;
-    background-image: url("images/images.jpeg");
+    background-image: url("/images.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -123,4 +123,5 @@ margin: 10px; }
     .container {
         grid-template-columns: 1fr;
     }
+
 }
