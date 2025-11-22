@@ -30,7 +30,11 @@ body {
     padding: 30px;
     gap: 30px;
 }
-.subhead{
+.subhead1{
+    color: #050505;
+    margin-bottom: 20px;
+}
+.subhead2{
     color: #050505;
     margin-bottom: 20px;
 }
@@ -125,6 +129,7 @@ margin: 10px; }
     }
 
 }
+
 
 
 
